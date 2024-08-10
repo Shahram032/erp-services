@@ -7,10 +7,14 @@
   <groupId>ir.shahkarCo</groupId>
   <artifactId>erp-services</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>erp-services</name>
   <!-- FIXME change it to the project's website -->
   <url>https://www.shahkarCo.ir</url>
+  <modules>
+    <module>auth-service</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
